@@ -138,6 +138,7 @@ header .scrolldown a:hover { color: #F06000; }
 /* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
+   
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -164,6 +165,7 @@ ul#nav li {
    list-style: none;
    height: 48px;
    display: inline-block;
+  
 }
 
 /* Links */
@@ -176,7 +178,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color : black;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
