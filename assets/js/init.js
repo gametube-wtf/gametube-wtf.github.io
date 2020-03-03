@@ -179,6 +179,19 @@
 
 });
 
+// ========================================================================= //
+  //  Typed Js
+  // ========================================================================= //
+
+  var typed = $(".typed");
+
+  $(function() {
+    typed.typed({
+      strings: [ "a Developer", "a Photographer", "an Open Source Contributer", "the ONE you're looking for"],
+      typeSpeed: 250,
+      loop: true,
+    });
+  });
 
 
 
