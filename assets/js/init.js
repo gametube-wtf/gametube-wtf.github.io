@@ -188,7 +188,10 @@
   $(function() {
     typed.typed({
       strings: [ "a Developer", "a Photographer", "an Open Source Contributer", "the ONE you're looking for"],
-      typeSpeed: 250,
+      typeSpeed: 10,
+      backSpeed: 0,
+      smartBackspace: true,
+      fadeOut: true,
       loop: true,
     });
   });
