@@ -187,7 +187,7 @@
 
   $(function() {
     typed.typed({
-      strings: [ "a Designer,", "a Listener", "the ONE you're looking for."],
+      strings: [ "a Designer,", "a Listener,", "the ONE you're looking for."],
       typeSpeed: 20,
       backSpeed: 0,
       smartBackspace: true,
